@@ -13,3 +13,5 @@ RUN set -ex && \
     unzip overture-linux-amd64.zip && \
     mv overture-linux-amd64 /usr/local/bin/overture && \
     rm -rf /tmp/*
+
+USER nobody
