@@ -14,4 +14,4 @@ RUN set -ex && \
     mv overture-linux-amd64 /usr/local/bin/overture && \
     rm -rf /tmp/*
 
-USER nobody
+#USER nobody
