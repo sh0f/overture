@@ -4,7 +4,7 @@
 
 FROM alpine
 
-ARG OVERTURE_VER=v1.7-rc2
+ARG OVERTURE_VER=v1.7
 ARG OVERTURE_URL=https://github.com/shawn1m/overture/releases/download/$OVERTURE_VER/overture-linux-amd64.zip
 
 RUN set -ex && \
